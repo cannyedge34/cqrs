@@ -1,4 +1,5 @@
-A command is a class with getter methods for the given items.
+A query is a class with getter method for the given id param.
+Simple dto (Data transfer object)
 
 ## Tests
 
