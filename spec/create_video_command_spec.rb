@@ -10,9 +10,9 @@ describe 'create_video_command' do # rubocop:disable RSpec/DescribeClass
 
   it 'prints an instance of command class with' do
     expect(create_video_command).to be_a_kind_of(CreateVideoCommand)
-    expect(create_video_command.send(:id)).to eq('1')
-    expect(create_video_command.send(:title)).to eq('new title')
-    expect(create_video_command.send(:url)).to eq('http:://google.com')
-    expect(create_video_command.send(:course_id)).to eq('5425')
+    expect(create_video_command.id).to eq('1')
+    expect(create_video_command.title).to eq('new title')
+    expect(create_video_command.url).to eq('http:://google.com')
+    expect(create_video_command.course_id).to eq('5425')
   end
 end

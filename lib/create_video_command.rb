@@ -9,7 +9,5 @@ class CreateVideoCommand < Command
     @course_id = course_id
   end
 
-  private
-
   attr_reader :id, :title, :url, :course_id
 end

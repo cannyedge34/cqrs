@@ -1,4 +1,4 @@
-A command is a class with private attributes.
+A command is a class with getter methods for the given items.
 
 ## Tests
 
