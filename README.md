@@ -1,6 +1,4 @@
-Content of the repo:
-
-
+A command is a class with private attributes.
 
 ## Tests
 
