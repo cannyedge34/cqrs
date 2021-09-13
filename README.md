@@ -1,5 +1,5 @@
-A query is a class with getter method for the given id param.
-Simple dto (Data transfer object)
+defining typed struct classes with dry-struct ruby gem
+also, we can use this gem to define data structure of one entity.
 
 ## Tests
 

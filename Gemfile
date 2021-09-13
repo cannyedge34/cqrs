@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'byebug'
+  gem 'dry-struct', require: false
   gem 'faker'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false

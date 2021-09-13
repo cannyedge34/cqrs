@@ -6,5 +6,6 @@ describe 'query' do # rubocop:disable RSpec/DescribeClass
 
   it 'returns new instance of query class' do
     expect(query).to be_a_kind_of(query_klass)
+    expect(query.frozen?).to be(true)
   end
 end
