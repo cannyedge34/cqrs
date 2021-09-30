@@ -1,7 +1,5 @@
-require 'command'
-
-describe 'command' do # rubocop:disable RSpec/DescribeClass
-  let(:command_klass) { Command }
+describe Src::Shared::Domain::Bus::Command::CommandBase do
+  let(:command_klass) { described_class }
   let(:command) { command_klass.new }
 
   it 'returns new instance of command class' do

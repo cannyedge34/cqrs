@@ -1,4 +1,10 @@
-A command is a class with getter methods for the given items.
+We implement command bus/command handler to have the controller logic decoupled.
+
+We gain performance because we can have sync/async command bus.
+
+## Run rack server
+
+    rackup
 
 ## Tests
 
